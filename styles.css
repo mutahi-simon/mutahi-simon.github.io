@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+header .profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+header .profile h1 {
+    margin: 10px 0 5px;
+}
+
+header .profile p {
+    margin: 5px 0;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+main section h3 {
+    margin-top: 20px;
+}
+
+main section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+main section a:hover {
+    text-decoration: underline;
+}
+
+main iframe, main video {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+}
